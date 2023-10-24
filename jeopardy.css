@@ -1,0 +1,53 @@
+/* some colors you may find useful:
+  #115ff4
+  #060ce9
+  #28a200
+  #8d2ab5
+  #74119c
+*/
+
+body {
+  background-color: #115ff4;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+#start {
+  background-color: #8d2ab5;
+  color: white;
+  padding: 1.5em 2.5em;
+  border: none;
+  border-radius: 0.5em;
+}
+
+#spin-container {
+  text-align: center;
+  color: white;
+  display: none;
+  font-size: 12em;
+}
+
+.fa-question-circle {
+  pointer-events: none;
+}
+
+#jeopardy {
+  text-align: center;
+  background-color: #060ce9;
+  color: white;
+  border-collapse: collapse;
+}
+
+#jeopardy th,
+#jeopardy td {
+  border: solid 1px white;
+  width: 10em;
+  padding: 0.5em;
+}
+
+#jeopardy td.disabled {
+  background-color: #28a200;
+}
